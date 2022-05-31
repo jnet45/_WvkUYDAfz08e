@@ -15,6 +15,7 @@ basic.showLeds(`
     # . # . #
     # # # . #
     `)
+basic.pause(1000)
 basic.forever(function () {
     basic.clearScreen()
     if (aa == 1) {
@@ -32,5 +33,5 @@ basic.forever(function () {
         radio.sendNumber(0)
         led.plot(2, 2)
     }
-    basic.pause(500)
+    basic.pause(100)
 })
